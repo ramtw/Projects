@@ -1,0 +1,125 @@
+*{
+	margin:0;padding:0;box-sizing:border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header
+{
+	width:100%;height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url("taj.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+nav
+{
+	width:100%;height:15vh;
+	background:black;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	text-transform:uppercase;
+}
+nav .logo
+{
+	width:25%;text-align:center;
+}
+nav .menu
+{
+	width:40%;
+	display:flex;
+	justify-content:space-around;
+	
+}
+nav .menu a
+{
+	width:25%;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+main
+{
+	width:100%;
+	height:85vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	color:white;
+}
+section
+{
+
+}
+section h3
+{
+	font-size:35px; 
+	font-weight:200;
+	letter-spacing:3px;
+	text-shadow:1px 1px 2px black;
+}
+section h1
+{
+	font-size:55px;
+	font-weight:700;
+	text-shadow:2px 1px 5px black;
+	text-transform:uppercase;
+	margin:30px 0px 20px 0px;
+}
+section p
+{
+	font-size:25px;
+	word-spacing:2px;
+	margin-bottom:25px;
+	text-shadow:1px 1px 1px black;
+}
+section a
+{
+	padding:12px 30px;
+	border-radius:4px;
+	outline:none;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:500;
+	text-decoration:none;
+	letter-spacing:1px;
+	transition:all .5s ease;
+}
+section .btnone
+{
+	background:#fff;
+	color:#000;
+}
+.btnone:hover
+{
+	background:#000;
+	color:#fff;
+}
+section .btntwo
+{
+	background:#00b894;
+	color:white;
+}
+.btntwo:hover
+{
+	background:white;
+	color:#00b894;
+}
+.change_text:after
+{
+	content:'';
+	color:#00b894;
+	animation:changetext 12s infinite linear;
+}
+@keyframes changetext
+{
+	0%{content:"LUCKNOW";background-image: url("lucknow.png")}
+	15%{content:"DELHI";}
+	30%{content:"AGRA";}
+	45%{content:"MUMBAI";}
+	60%{content:"DARJEELING";}
+	75%{content:"KERELA";}
+	90%{content:"HYDERABAD";}
+	100%{content:"";}
+}
