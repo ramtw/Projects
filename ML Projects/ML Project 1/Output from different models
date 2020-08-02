@@ -1,0 +1,18 @@
+Models Outputs
+
+
+1. Decission Tree model:
+    Mean Scores -  3.975853327564183
+    Standard deviation scores -  0.799800471297241
+
+
+
+2. Linear Regression:
+    Mean Scores -  4.797315189822701
+    Standard deviation scores -  1.0913918929524715
+    
+    
+    
+3. Random Forest Regressor:
+    Mean Scores -  3.136966974010229
+    Standard deviation scores -  0.5340256402508202
